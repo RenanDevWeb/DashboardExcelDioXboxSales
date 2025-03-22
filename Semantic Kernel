@@ -1,0 +1,76 @@
+O Semantic Kernel pode ser entendido como um orquestrador de IA, ajudando desenvolvedores a integrar modelos de linguagem natural, memória semântica e habilidades de planejamento em aplicações reais.
+
+Em resumo, ele permite que um LLM não apenas gere texto, mas também execute funções, interaja com APIs, armazene contexto e automatize tarefas complexas. Isso torna a IA mais útil para casos de uso como assistentes virtuais, chatbots avançados, automação de processos empresariais e análise de dados baseada em linguagem natural.
+
+O SK é baseado em três pilares principais:
+
+Habilidades (Skills) → Funções que a IA pode executar
+
+Memória Semântica → Capacidade de lembrar informações
+
+Planejamento → Coordenação entre IA e código tradicional
+
+🛠 1. Habilidades (Skills)
+O Semantic Kernel permite criar habilidades reutilizáveis que podem ser chamadas por um modelo de IA. Essas habilidades são divididas em três categorias principais:
+
+🔹 Habilidades Semânticas → Funções baseadas em prompts e modelos de IA (exemplo: um prompt que gera resumos de textos).
+🔹 Habilidades Nativas → Funções escritas em código tradicional (C#, Python etc.), podendo interagir com bancos de dados, APIs e sistemas externos.
+🔹 Habilidades Abertas → Integrações com APIs externas, como Google Search, APIs de e-commerce ou ferramentas de produtividade.
+
+
+2. Memória Semântica
+Os modelos de IA, por padrão, não têm memória de longo prazo. O Semantic Kernel resolve isso armazenando informações que podem ser recuperadas posteriormente.
+
+Ele utiliza bancos de dados vetoriais para armazenar trechos de textos e conteúdos que a IA pode buscar sempre que necessário. Isso melhora a coerência das interações e permite que a IA "lembre" conversas anteriores ou contextos específicos.
+
+💡 Exemplo:
+Se um usuário pergunta "Quais foram os últimos artigos que eu li?", a IA pode acessar sua memória semântica e fornecer uma resposta personalizada.
+
+🗺 3. Planejamento
+O planejamento permite que a IA divida tarefas complexas em etapas menores e execute-as de maneira organizada.
+
+Existem dois tipos principais de planejamento:
+
+Plano Manual → O desenvolvedor define a sequência de ações que a IA deve seguir.
+
+Plano Automático → O Semantic Kernel usa IA para decidir quais ações executar com base no contexto.
+
+💡 Exemplo:
+Se você pedir "Resuma este relatório e me envie por e-mail", a IA pode criar um plano para:
+
+Extrair o conteúdo do relatório
+
+Gerar um resumo usando um LLM
+
+Formatar o texto
+
+Chamar uma API para enviar o e-mail
+
+⚙ Como o Semantic Kernel Funciona na Prática?
+O Semantic Kernel pode ser usado com C# e Python, permitindo integração com sistemas diversos.
+
+🚀 Passos básicos para usar o SK:
+1️⃣ Instalar o SDK
+
+Para C#:
+
+
+dotnet add package Microsoft.SemanticKernel
+Para Python:
+
+
+
+pip install semantic-kernel
+2️⃣ Conectar-se a um modelo de IA (como o Azure OpenAI ou OpenAI API)
+3️⃣ Criar e registrar habilidades
+4️⃣ Adicionar memória semântica, se necessário
+5️⃣ Executar comandos e fluxos personalizados
+
+🏆 Casos de Uso do Semantic Kernel
+✅ Automação de Processos Empresariais → IA gerenciando tarefas administrativas.
+✅ Assistentes Virtuais Inteligentes → Bots que aprendem e se adaptam ao usuário.
+✅ Análise de Dados com Linguagem Natural → Consultas complexas feitas via IA.
+✅ Chatbots para Atendimento ao Cliente → IA integrada a CRMs e help desks.
+
+🎯 Conclusão
+O Semantic Kernel permite unir modelos de IA generativa com execução de tarefas reais, criando aplicações mais inteligentes e eficientes. Com memória, habilidades reutilizáveis e planejamento, ele abre um novo nível de interatividade para sistemas baseados em IA.
